@@ -63,7 +63,8 @@ const Home: React.FC<HomeProps> = ({ featured, trending }) => {
         } else {
             router.push('/');
         }
-    }, [router]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     return (
         <React.Fragment>
