@@ -1,4 +1,5 @@
 module.exports = {
+    output: 'standalone',
     swcMinify: true,
     compiler: {
         styledComponents: true,
